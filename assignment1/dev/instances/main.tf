@@ -64,7 +64,7 @@ resource "aws_instance" "my_amazon" {
   )
 }
 resource "aws_ecr_repository" "aws_ecr" {
-  name                 = "assignment1"
+  name                 = "assignment1-dev"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
